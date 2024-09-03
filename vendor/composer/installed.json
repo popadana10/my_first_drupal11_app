@@ -2526,6 +2526,210 @@
             "install-path": null
         },
         {
+            "name": "drupal/radix",
+            "version": "dev-6.0.x",
+            "version_normalized": "dev-6.0.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/radix.git",
+                "reference": "01945b57973ecb4529f20eccf08ed2864af63115"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11"
+            },
+            "require-dev": {
+                "drush/drush": "^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-6.0.x": "6.0.x-dev"
+                },
+                "drupal": {
+                    "version": "6.0.0-rc4+8-dev",
+                    "datestamp": "1724743664",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^12"
+                    }
+                }
+            },
+            "installation-source": "source",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sohail Lajevardi",
+                    "homepage": "https://www.drupal.org/user/1331334",
+                    "email": "doxigo@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Hosisam",
+                    "homepage": "https://www.drupal.org/user/3449435"
+                },
+                {
+                    "name": "shadcn",
+                    "homepage": "https://www.drupal.org/user/571032"
+                }
+            ],
+            "description": "Radix is a Bootstrap 5 component-based base theme for Drupal. It has Bootstrap, Sass, BrowserSync and a lot more goodies built-in.",
+            "homepage": "https://www.drupal.org/project/radix",
+            "support": {
+                "source": "https://git.drupalcode.org/project/radix",
+                "issues": "https://www.drupal.org/project/issues/radix"
+            },
+            "install-path": "../../web/themes/contrib/radix"
+        },
+        {
+            "name": "drupal/tara",
+            "version": "11.0.2",
+            "version_normalized": "11.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tara.git",
+                "reference": "11.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/tara-11.0.2.zip",
+                "reference": "11.0.2",
+                "shasum": "c2c84558b651c4ca7983e5f4b72546c6f5773471"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "11.0.2",
+                    "datestamp": "1723787342",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "<p>Tara is a light weight modern Drupal 8, 9, 10, 11 theme by <a href=\"https://drupar.com/\" target=\"_blank\">Drupar.com</a></p><p><a href=\"https://drupar.com/theme/tara\" target=\"_blank\">Theme Homepage</a> | <a href=\"https://drupar.com/tara-theme-documentation\" target=\"_blank\">User Guide</a></p>",
+            "homepage": "https://www.drupal.org/project/tara",
+            "support": {
+                "source": "https://git.drupalcode.org/project/tara"
+            },
+            "install-path": "../../web/themes/contrib/tara"
+        },
+        {
+            "name": "drupal/vani",
+            "version": "11.0.0",
+            "version_normalized": "11.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/vani.git",
+                "reference": "11.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/vani-11.0.0.zip",
+                "reference": "11.0.0",
+                "shasum": "cd3c1e03f97d3e31aa97cc9348e63c1e8681d04b"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "11.0.0",
+                    "datestamp": "1723468405",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "A light weight, Clean, flexible, fully responsive and multi-purpose Drupal 8, 9, 10, 11 theme by <a href=\"https://drupar.com\" target=\"_blank\">Drupar.com</a><br /><a href=\"https://drupar.com/theme/vani\" target=\"_blank\">Theme Page</a> | <a href=\"https://drupar.com/vani-documentation\" target=\"_blank\">Theme Documentation</a> | <a href=\"https://demo2.drupar.com/vani\" target=\"_blank\">Demo</a>",
+            "homepage": "https://www.drupal.org/project/vani",
+            "support": {
+                "source": "https://git.drupalcode.org/project/vani"
+            },
+            "install-path": "../../web/themes/contrib/vani"
+        },
+        {
+            "name": "drupal/xara",
+            "version": "11.0.0",
+            "version_normalized": "11.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/xara.git",
+                "reference": "11.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/xara-11.0.0.zip",
+                "reference": "11.0.0",
+                "shasum": "00c8b253eb9728e40bab634fd30a444671ad517c"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "11.0.0",
+                    "datestamp": "1723518636",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "Xara is a premium multi-purpose Drupal 8, 9, 10 and 11 Theme by <a href=\"https://drupar.com/\" target=\"_blank\">Drupar.com</a>",
+            "homepage": "https://www.drupal.org/project/xara",
+            "support": {
+                "source": "https://git.drupalcode.org/project/xara"
+            },
+            "install-path": "../../web/themes/contrib/xara"
+        },
+        {
             "name": "drush/drush",
             "version": "13.0.1",
             "version_normalized": "13.0.1.0",
